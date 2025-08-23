@@ -6,12 +6,14 @@
     <title>Document</title>
     <style>
         .navbar{
+            position: fixed;
             top:0;
             left:0;
             width:100%;
             background-color: white;
             border-bottom: 2px solid;
-            padding: 3px opx 5px;    
+            padding: 3px opx 5px;   
+            z-index: 1000;
         }
         .navbar>h1,
         a{
@@ -60,7 +62,8 @@
         b{
             color:white;
             background-color: rgb(12, 9, 9);
-            font-size:xx-large;
+            font-size: xx-large;
+
         }
         .part2.child p{
             color:white;
