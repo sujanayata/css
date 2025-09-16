@@ -1,0 +1,49 @@
+<style>
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row; /* text & img side by side */
+  width: 50%;
+  border: 1px solid #ddd;
+}
+
+.card-text, 
+.card-img {
+  flex: 1; /* both take equal width */
+}
+
+.card-img img {
+  width: 100%; /* image full width */
+  height: 100%;
+  object-fit: cover; /* crop neatly */
+}
+</style>
+<div class="card-container">
+  <div class="card">
+    <div class="card-text">
+      <p>📅 Jan 01, 2025 | 💇 Hair Salone</p>
+      <h2>How to Extend The Life of Your Haircolor</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      <a href="#">READ MORE →</a>
+    </div>
+    <div class="card-img">
+      <img src="https://via.placeholder.com/400x300" alt="hair">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-text">
+      <p>📅 Jan 01, 2025 | 💇 Hair Salone</p>
+      <h2>Hottest Hairstyles and Haircuts in 2045</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      <a href="#">READ MORE →</a>
+    </div>
+    <div class="card-img">
+      <img src="https://via.placeholder.com/400x300" alt="hair">
+    </div>
+  </div>
+</div>
